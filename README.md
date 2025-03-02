@@ -1,5 +1,31 @@
 # Receipt Processor
 
+## TODO:
+
+[x] Implement server object
+[x] Implement data store
+[x] Implement scoring equations
+[x] Implement route handlers
+
+## How to run
+
+Run project:
+
+- If you have go installe:
+    - `go mod download`
+    - `go run ./cmd/main.go`
+    - The server should be available at `localhost:8080/`
+- If you dont have go installed run the dockerized version with docker compose:
+    - `docker-compose up`
+    - Server is available at `localhost:8080`
+
+Run tests:
+
+- Execute `go test ./tests`
+
+
+## Instructions:
+
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
 in the [api.yml](./api.yml) file. We will use the described API to test your solution.
 

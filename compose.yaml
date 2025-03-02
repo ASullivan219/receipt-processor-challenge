@@ -1,0 +1,11 @@
+services:
+  processor-api:
+    container_name: processor-api
+    build: .
+    ports:
+      - 8080:8080
+    networks:
+      - processor-net
+
+networks:
+  processor-net:
