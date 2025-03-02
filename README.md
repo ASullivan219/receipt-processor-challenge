@@ -2,16 +2,16 @@
 
 ## TODO:
 
-[x] Implement server object
-[x] Implement data store
-[x] Implement scoring equations
-[x] Implement route handlers
+[x] Implement server object  
+[x] Implement data store  
+[x] Implement scoring equations  
+[x] Implement route handlers  
 
 ## How to run
 
 Run project:
 
-- If you have go installe:
+- If you have go installed:
     - `go mod download`
     - `go run ./cmd/main.go`
     - The server should be available at `localhost:8080/`
